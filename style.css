@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@200&family=Roboto:ital,wght@0,100;0,700;1,100;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:  #edf9f5;
+    /* border: 1px solid red; */
+}
+
+.text-section{
+
+    width: 50%;
+    background-color: #edf9f5;
+    /* border: 1px solid red; */
+
+}
+
+.nav-bar{
+
+    display: flex;
+    margin-left: 190px;
+    /* border: 1px solid red; */
+}
+
+.nav-bar h2{
+
+    margin-top: 35px;
+    font-size: 22px;    
+}
+
+
+.nav-bar ul{
+
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 40px;
+    gap: 30px;
+    font-size: 13px;
+    font-weight: 800;
+
+}
+
+.txt-part{
+
+    margin-left: 190px;
+}
+
+.txt-part h4{
+
+    font-size: 12px;
+    margin-top: 110px;
+}
+
+.txt-part h1{
+
+    margin-top: 20px;
+    letter-spacing: 3px;
+    color: rgb(10, 28, 10);
+}
+
+.txt-part p{
+
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 15px;
+    color: rgb(77, 70, 70);
+}
+
+.txt-part button{
+
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;        
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+
+.image-section{
+
+    width: 50%;
+    /* border: 1px solid red; */
+    background-color: #01553d;
+    border-bottom-left-radius: 100px;
+
+}
+
+.cart{
+
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.cart h6{
+
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 240px;
+    color: #70e4bf;
+    letter-spacing: 2px;
+}
+
+.cart button{
+
+    width: 110px;
+    height: 35px;
+    border: none;
+    margin-top: 30px;        
+    border-radius: 30px;
+    font-weight: 600;
+    background-color:  #70e4bf;
+    color: rgb(5, 43, 43);
+
+}
+
+.office1{
+
+    width: 100%;
+    height: 45vh;
+    /* border: 1px solid red; */
+}
+
+.img-1{
+
+    width: 200px;    
+    margin-top: 60px;    
+    margin-left: -60px;
+    /* border: 1px solid red;   */
+    
+}
+
+.img-2{
+
+    width: 250px;
+    height: 190px;
+    border-top-right-radius: 100px;
+    margin-left: 50px; 
+    margin-top: 60px;
+    /* border: 1px solid red; */
+
+}
+
+.office2{
+
+    width: 100%;
+    height: 45vh;
+    /* border: 1px solid red; */
+}
+
+.img-3{
+
+    width: 250px;
+    /* height: 250px; */
+    margin-top: 7px;
+    border-bottom-left-radius: 100px;
+    margin-left: -60px;
+}
+
+.img-4{
+
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
